@@ -68,7 +68,7 @@ Trei butoane (UP/ENT/DN), fiecare cu pull-up 10kΩ la 3.3V și condensator 1uF p
 | P1.02 | SW_DN | Buton jos |
 | P1.08 | IMU_INT2 | Întrerupere BMA423 #2 |
 
-I2C-ul e shared între RT6160A, BQ25180, MAX17048, BMA423 și DRV2605. Fiecare are adresă diferită, sper că nu e vreo coliziune :)
+I2C-ul e shared între RT6160A, BQ25180, MAX17048, BMA423 și DRV2605.
 
 ---
 
