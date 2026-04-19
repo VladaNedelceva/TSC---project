@@ -275,8 +275,8 @@
 <smd name="8" x="0.985" y="0.75" dx="0.76" dy="0.27" layer="1" roundness="25"/>
 <smd name="9" x="0" y="0" dx="0.9" dy="1.3" layer="1" cream="no"/>
 </package>
-<package name="BMA423_BMA423" library_version="1">
-<description>&lt;b&gt;BMA423-1&lt;/b&gt;&lt;br&gt;
+<package name="BMA421_BMA421" library_version="1">
+<description>&lt;b&gt;BMA421-1&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-0.75" y="-0.775" dx="0.35" dy="0.3" layer="1" rot="R90"/>
 <smd name="2" x="-0.25" y="-0.775" dx="0.35" dy="0.3" layer="1" rot="R90"/>
@@ -1625,7 +1625,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <pin name="!ALERT" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
 <pin name="GND" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="BMA423_BMA423" library_version="1">
+<symbol name="BMA421_BMA421" library_version="1">
 <wire x1="5.08" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="12.7" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
@@ -2266,14 +2266,14 @@ Source: &lt;a href="https://www.richtek.com/SaveDownload.aspx?specid=RT6160A"&gt
 </device>
 </devices>
 </deviceset>
-<deviceset name="BMA423_BMA423" prefix="IC" library_version="1">
+<deviceset name="BMA421_BMA421" prefix="IC" library_version="1">
 <description>&lt;b&gt;Accelerometers Triaxial low-g 12bit Acceleration Sensor&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.com/datasheet/2/783/BST-BMA423-DS000-1509600.pdf"&gt; Datasheet &lt;/a&gt;</description>
+Source: &lt;a href="https://www.mouser.com/datasheet/2/783/BST-BMA421-DS000-1509600.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="BMA423_BMA423" x="0" y="0"/>
+<gate name="G$1" symbol="BMA421_BMA421" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BMA423_BMA423">
+<device name="" package="BMA421_BMA421">
 <connects>
 <connect gate="G$1" pin="ASCL" pad="11"/>
 <connect gate="G$1" pin="ASDA" pad="4"/>
@@ -2290,14 +2290,14 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/783/BST-BMA423-DS000-1509
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="BMA423" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bma423/bosch" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="BMA421" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bma421/bosch" constant="no"/>
 <attribute name="DESCRIPTION" value="Accelerometers Triaxial low-g 12bit Acceleration Sensor" constant="no"/>
 <attribute name="HEIGHT" value="1mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="BOSCH" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BMA423" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="262-BMA423" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA423?qs=HXFqYaX1Q2xC%252BSgeGoX3mg%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BMA421" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="262-BMA421" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA421?qs=HXFqYaX1Q2xC%252BSgeGoX3mg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2916,7 +2916,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="IC1" library="InkTime_v5" deviceset="BQ25180YBGR_BQ25180YBGR" device=""/>
 <part name="IC2" library="InkTime_v5" deviceset="RT6160AWSC_RT6160AWSC" device=""/>
 <part name="U3" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_MAX17048G+T10" device="" value="MAX17048G+T10"/>
-<part name="IC3" library="InkTime_v5" deviceset="BMA423_BMA423" device=""/>
+<part name="IC3" library="InkTime_v5" deviceset="BMA421_BMA421" device=""/>
 <part name="IC4" library="InkTime_v5" deviceset="DRV2605YZFR_DRV2605YZFR" device=""/>
 <part name="Q1" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
 <part name="J1" library="InkTime_v5" deviceset="TC2030-IDC_TC2030-IDC" device=""/>
@@ -2940,8 +2940,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="L7" library="InkTime_v5" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device=""/>
 <part name="R4" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="R2" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
-<part name="C24" library="InkTime_v5" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="0.1uF"/>
-<part name="C23" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_1_ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="10uF"/>
+<part name="C24" library="InkTime_v5" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="10uF"/>
+<part name="C23" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_1_ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="0.1uF"/>
 <part name="GND6" library="InkTime_v5" deviceset="HECTOR_WATCH_2_GND" device="" value="GND"/>
 <part name="GND7" library="InkTime_v5" deviceset="HECTOR_WATCH_2_GND" device=""/>
 <part name="C25" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_1_ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="22uF"/>
