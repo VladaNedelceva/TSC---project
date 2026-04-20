@@ -1,0 +1,103 @@
+Designator,Value,Package,Description,Quantity
+U$1,nRF52840,AQFN50 7x7mm,Nordic nRF52840 BLE SoC,1
+IC1,BQ25180YBGR,BGA 1.0x1.55mm,LiPo Charger TI,1
+IC2,RT6160AWSC,BGA 1.4x2.3mm,DC/DC Buck-Boost Converter,1
+IC3,BMA421,LGA 2x2mm,IMU Accelerometer Bosch,1
+IC4,DRV2605YZFR,BGA 1.44x1.44mm,Haptic Driver TI,1
+U3,MAX17048G+T10,SOT23-6,LiPo Fuel Gauge Maxim,1
+J1,TC2030-IDC,TC2030-IDC,SWD Programming Connector,1
+J2,503480-2400,503480-2400,E-Paper FPC Connector 24pin 0.5mm,1
+J4,KH-TYPE-C-16P,KH-TYPE-C-16P,USB-C Connector 16pin,1
+ANT1,2450AT18B100E,2450AT18B100E,2.4GHz Chip Antenna,1
+D3,USBLC6-2SC6Y,SOT363,USB ESD Protection,1
+D2,MBR0530,SOD-123,Schottky Diode 30V 0.5A,1
+D4,MBR0530,SOD-123,Schottky Diode 30V 0.5A,1
+D5,MBR0530,SOD-123,Schottky Diode 30V 0.5A,1
+Q3,SI1308EDL-T1-GE3,SOT23-3,N-Channel MOSFET,1
+X1,32MHz,Crystal,32MHz Crystal Oscillator,1
+X2,32.768kHz,Crystal,32.768kHz RTC Crystal,1
+L1,3.9nH,0201,RF Inductor,1
+L2,10uH,MLP2016,Power Inductor DC/DC,1
+L3,15nH,0201,RF Inductor,1
+L5,68uH,MLP2016,EPD Boost Inductor,1
+L7,FTC252012SR47MBCA,MLP2016,Haptic Inductor 0.47uH,1
+SW_UP,EVP-AKE31A,EVP-AKE31A_PAN,Tactile Button UP,1
+SW_ENT,EVP-AKE31A,EVP-AKE31A_PAN,Tactile Button ENTER,1
+SW_DN,EVP-AKE31A,EVP-AKE31A_PAN,Tactile Button DOWN,1
+SJ1,SolderJumper,,Solder Jumper,1
+R1_USB,5K1,0201,USB CC1 Resistor,1
+R2_USB,5K1,0201,USB CC2 Resistor,1
+R17,3K3,0201,I2C Pull-up SDA,1
+R18,3K3,0201,I2C Pull-up SCL,1
+R9,10K,0201,NTC Thermistor,1
+R2,0,0201,0 ohm jumper,1
+R3,0,0201,0 ohm jumper,1
+R4,0,0201,0 ohm jumper,1
+R5,10k,0201,Button pull-up,1
+R7,10k,0201,Button pull-up,1
+R8,10k,0201,Button pull-up,1
+R_PWR_EPD,10K,0201,EPD Power resistor,1
+R_TYPE_SEL,2.2,0201,EPD Type select,1
+R1_EP_DR,0.47,0201,EPD Drive resistor,1
+R2_EP_DR,10K,0201,EPD Drive resistor,1
+C1,12pF,0402,Crystal load cap,1
+C3,1pF,0402,RF cap,1
+C4,1pF,0402,nRF decoupling,1
+C5,100nF,0402,nRF decoupling,1
+C6,4.7uF,0402,nRF decoupling,1
+C7,100nF,0402,nRF decoupling,1
+C8,100nF,0402,nRF decoupling,1
+C9,820pF,0402,nRF decoupling,1
+C10,N.C.,0402,Not Connected,1
+C11,100pF,0402,nRF decoupling,1
+C12,100nF,0402,nRF decoupling,1
+C13,N.C.,0402,Not Connected,1
+C14,4.7uF,0402,nRF decoupling,1
+C15,1.0uF,0402,nRF decoupling,1
+C16,47nF,0402,nRF decoupling,1
+C17,12pF,0402,Crystal load cap,1
+C18,12pF,0402,Crystal load cap,1
+C19,100nF,0402,IMU VDDIO decoupling,1
+C20,4.7uF,0402,nRF bulk,1
+C21,4.7uF,0402,nRF bulk,1
+C22,N.C.,0402,Not Connected,1
+C23,0.1uF,0402,DC/DC input cap,1
+C24,10uF,0402,DC/DC output cap,1
+C25,22uF,0402,DC/DC output cap,1
+C26,12pF,0402,Crystal load cap,1
+C27,0.1uF,0201,Decoupling cap,1
+C29,1uF,0201,Button filter cap,1
+C30,1uF,0201,Button filter cap,1
+C31,1uF,0201,Button filter cap,1
+C32,1uF,0201,Haptic driver cap,1
+C33,22uF,0402,DC/DC output cap,1
+C34,0.1uF,0201,Haptic driver cap,1
+C37,1uF,0201,LiPo charger cap,1
+C38,1uF,0201,LiPo charger cap,1
+C39,10uF,0402,LiPo charger input,1
+C42,0.1uF,0201,USB ESD cap,1
+C43,4.7uF,0402,USB ESD cap,1
+C1-EP-DR,10uF,0402,EPD drive cap,1
+C2-EP-DR,1uF,0201,EPD drive cap,1
+EPD_C1,1uF/50V,0402,EPD series cap,1
+EPD_C2,1uF/50V,0402,EPD series cap,1
+EPD_C5,1uF/50V,0402,EPD series cap,1
+EPD_C6,1uF/50V,0402,EPD series cap,1
+EPD_C7,1uF/50V,0402,EPD series cap,1
+EPD_C8,1uF/50V,0402,EPD series cap,1
+EPD_C9,1uF/50V,0402,EPD series cap,1
+EPD_C10,1uF/50V,0402,EPD series cap,1
+EPD_C11,1uF/50V,0402,EPD series cap,1
+EPD_C12,1uF/50V,0402,EPD series cap,1
+TP_SCL,TestPad,TP20R,Test Point SCL,1
+TP_SDA,TestPad,TP20R,Test Point SDA,1
+TP_3V3,TestPad,TP20R,Test Point 3.3V,1
+TP_VREG,TestPad,TP20R,Test Point VREG,1
+TP_SWO,TestPad,TP20R,Test Point SWO,1
+TP_SWDIO,TestPad,TP20R,Test Point SWDIO,1
+TP_SWDCLK,TestPad,TP20R,Test Point SWDCLK,1
+TP_RESET,TestPad,TP20R,Test Point RESET,1
+TP_3.3V,TestPad,TP20R,Test Point 3.3V,1
+TP_GND,TestPad,TP20R,Test Point GND,1
+TP_VBAT,TestPad,TP20R,Test Point VBAT,1
+TP_BAT_GND,TestPad,TP20R,Test Point BAT GND,1
